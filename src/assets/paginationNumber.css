@@ -1,0 +1,15 @@
+.paginationNumberContainer{
+padding:10px;
+border: 1px solid #BABFC3;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+color: rgba(0, 0, 0, 0.7);
+font-size: 14px;
+width:36px;
+height: 36px;
+cursor: pointer;
+border-radius: 2px;
+}

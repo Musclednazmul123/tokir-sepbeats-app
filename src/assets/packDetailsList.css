@@ -1,0 +1,33 @@
+.packSampleItemDescContainer {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sampleCaption {
+  font-weight: 400;
+  font-size: 12px;
+  color: #585858;
+}
+
+.columnHeading {
+  font-size: 14px;
+  color: #202223;
+  font-weight: 400;
+  /* margin-bottom: 10px; */
+}
+
+.filterWrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.filter {
+  flex: 1;
+}

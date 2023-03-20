@@ -1,0 +1,54 @@
+.packItem {
+  width: 200px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor:pointer;
+  position: relative;
+}
+
+.slider{
+    position: absolute;
+    height:0px;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    transition: height 0.5s ease; 
+}
+
+.packItem:hover .slider{
+height: 100%;
+}
+
+.newPack{
+width:200px;
+height:130px;
+border: 1px dashed #BABFC3;
+display: flex;
+border-radius: 8px;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+position: relative;
+}
+
+
+.newPackSlider{
+    position: absolute;
+    height:0px;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.newPack:hover .newPackSlider{
+    height:100%;
+}
+
+.newPackItem{
+    font-size: 12px;
+    color: #8C9196;
+}

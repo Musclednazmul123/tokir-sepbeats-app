@@ -1,0 +1,426 @@
+.payments-sections {
+    display: flex;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+}
+
+.payment-section {
+    width: 30%;
+    position: relative;
+    border-radius: 1rem;
+    background: #fff;
+    box-shadow: 0px 0px 2px 0px #bcbcbc;
+    margin: 12px;
+    border: 2px solid transparent;
+}
+
+.payment-section.is-active {
+    border-color: #008060;
+}
+
+.payments {
+    padding: 1rem 1.2rem;
+}
+
+.header {
+    padding: 12px 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+.price-section {
+    display: flex;
+    flex: 0 0 100%;
+    padding: 0px 0 12px;
+    align-items: center;
+}
+.price {
+    font-size: 3em;
+    font-weight: 800;
+    margin-right: 12px;
+    line-height: 1;
+}
+.details-item {
+    display: flex;
+    flex: 0 0 100%;
+    padding: 12px 0;
+    align-items: center;
+}
+.price-btn {
+    margin: 12px 0;
+}
+.price-btn .Polaris-Button {
+    width: 100%;
+    flex: 0 0 100%;
+}
+.subscribed-plan {
+    position: absolute;
+    background: #008060;
+    padding: 4px 12px;
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 50px;
+    line-height: 1.4;
+    top: -14px;
+}
+.subscribed-plan:before {
+    content: "Your plan";
+}
+.subscribed-plan-item {
+    display: none;
+    justify-content: center;
+}
+.is-active .subscribed-plan-item {
+    display: flex;
+    justify-content: center;
+}
+.item-label {
+    margin-left: 12px;
+}
+
+@media screen and (max-width: 850px){
+    .payment-section {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 480px){
+    .payment-section {
+        width: auto;
+    }
+    .payments-sections {
+        display: flex;
+        flex: 0 0 100%;
+        flex-direction: column;
+    }
+}
+
+.Collapsible_Item .Polaris-Button--plain:hover:not(.Polaris-Button--removeUnderline), .Polaris-Button--plain:focus:not(.Polaris-Button--removeUnderline),
+.Collapsible_Item .Polaris-Button--monochrome.Polaris-Button--plain .Polaris-Button__Text:not(.Polaris-Button--removeUnderline) {
+    text-decoration: none !important;
+}
+
+.Collapsible_Item .Polaris-Button{
+    justify-content: left !important;
+    padding: 0px !important;
+}
+.Collapsible_Item {
+    background: #fff;
+    margin: 0.4rem 0px;
+    padding: 0 18px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5px rgba(23, 24, 24, 0.05), 0 1px 2px rgba(0, 0, 0, 0.15);
+    outline: 0.0625rem solid #0000;
+}
+.Collapsible_Item__Content{
+    margin: 0 1.6rem;
+    padding-bottom: 1rem;
+}
+
+.center-wrapper {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.mt-1{
+    margin-top: 1rem;
+}
+.mt-2{
+    margin-top: 2rem;
+}
+.mt-3{
+    margin-top: 3rem;
+}
+.mt-4{
+    margin-top: 4rem;
+}
+.mb-1{
+    margin-bottom: 1rem;
+}
+.mb-2{
+    margin-bottom: 2rem;
+}
+.mb-3{
+    margin-bottom: 3rem;
+}
+.mb-4{
+    margin-bottom: 4rem;
+}
+.pb-1{
+    padding-bottom: 1rem;
+}
+.pb-2{
+    padding-bottom: 2rem;
+}
+.pb-3{
+    padding-bottom: 3rem;
+}
+.pb-4{
+    padding-bottom: 4rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Polaris-Stack.Polaris-Stack--alignmentCenter{
+    justify-content: center;
+}
+.Polaris-Modal-Dialog__Modal .Polaris-Stack > .Polaris-Stack__Item{
+    margin-left: 0;
+}
+/* .Polaris-EmptyState__Image{
+    width: 700px;
+    height: 350px;
+} */
+.click-state{
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+      font-size: 24px;
+      font-weight: 400;
+      text-align: center;
+  }
+  
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  
+  .btn {
+    color: #ffffff;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+  }
+  
+  .btn:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cards_item {
+    display: flex;
+    padding: 1rem;
+  }
+  
+  @media (min-width: 40rem) {
+    .cards_item {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 56rem) {
+    .cards_item {
+      width: 25%;
+    }
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .card_content {
+    padding: 1rem;
+    background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+  }
+  
+  .card_title {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+  }
+  
+  .card_text {
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;    
+    font-weight: 400;
+  }
+  .made_by{
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 35px;
+    text-align: center;
+  }
+  @media (min-width: 48.0625em){
+    .Polaris-Modal-Dialog__Modal {
+        max-width: 22.75rem;
+    }
+}
+.Polaris-Modal-Dialog__Modal .Polaris-Stack__Item.Polaris-Stack__Item--fill{
+    flex: none;
+}
+.product-details-card .Polaris-MediaCard .Polaris-MediaCard__MediaContainer{
+    display: flex;
+}
+.downloads-sales{
+    display: flex;
+    float: right;
+    gap: 15px;
+    font-size: 16px;
+}
+.downloads-sales .downloads{
+    display: flex;
+}
+.downloads-sales .sales{
+    display: flex;
+}
+.downloads-sales .downloads-k, .downloads-sales .sales-k{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    margin-left: 8px;
+}
+.genre-price-edit{
+    display: flex;
+}
+.Polaris-MediaCard__MediaContainer:not(.Polaris-MediaCard--portrait){
+    flex-basis: 70%;
+}
+.Polaris-MediaCard__InfoContainer:not(.Polaris-MediaCard--portrait){
+    flex-basis: 30%;
+}
+.Polaris-VideoThumbnail__Thumbnail{
+    padding-bottom: 25%;
+    width: 30%;
+    min-width: 30%;
+    max-width: 30%;
+}
+.genre-price-edit{
+    gap: 1rem;
+    font-size: 18px;
+    padding-top: 20px;
+}
+.product-edit{
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.product-details{
+    padding: 1rem;
+}
+.product-title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.samples-left,.samples-text, .product-description , .add-delete-btns{
+    padding-top: 1rem;
+}
+.product-description{
+    font-size: 20px;
+}
+.file-extension{
+    padding-top: 20px;
+}
+.sephbeats-filters{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sephbeats-filters .sephbeats-filter-search{
+    width: 50%;
+}
+.cards_item-dropZone {
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 100%;
+    border: 1px dotted;
+    height: 9rem;
+    border: 3px dotted cadetblue;
+    height: 9rem;
+    border-radius: 8px;
+    text-align: center;
+}
+.dropZone-text{
+    line-height: 9rem;
+}
+.sephbeats-downloads-icon{
+    display: flex;
+}
+.sephbeats-downloads-icon .Polaris-Icon--colorBase{
+    margin: unset;
+}
+.sephbeats-downloads-icon .downloads-text{
+    margin-left: 5px;
+}
+.sephbeats-thumbnail-title .Polaris-Choice{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.sephbeats-thumbnail-text{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+}
+
+
+
+
+/* ================================== Home ================================ */
+
+.home-topbar img{
+    margin-top: 15px;
+}
+.shephbeats-home .Polaris-TopBar__LogoContainer, .shephbeats-pack-page .Polaris-TopBar__LogoContainer{
+    flex-basis: calc(10rem + env(safe-area-inset-left));
+}
+.shephbeats-home .Polaris-TopBar__SearchField, .shephbeats-pack-page .Polaris-TopBar__SearchField{
+    width: 65%;
+}
+.Polaris-DropZone.Polaris-DropZone--hasOutline.Polaris-DropZone--sizeLarge{
+    min-height: 10.5rem;
+}
+.shephbeats-home .Polaris-Tabs__Panel .pack-detail-page img{
+    max-width: 55%;
+    vertical-align: middle;
+    min-width: 55%;
+}
+
+.shephbeats-home .Polaris-Tabs__Panel .pack-detail-page{
+    text-align: center;
+}

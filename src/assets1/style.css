@@ -1,0 +1,43 @@
+.dashboard .Polaris_card .Polaris-Card__Section{
+    padding-top: 0;
+}
+.dashboard .Polaris-Page{
+    padding: 0;
+}
+.dashboard .Polaris-Card__Header{
+    padding-top: 10px;
+}
+.dashboard .Polaris-Card__Section{
+    padding-bottom: 10px;
+}
+.dashboard .card-class{
+    display: flex;
+}
+.dashboard .Polaris-Icon{
+    margin-top: 10%;
+    height: 2.25rem;
+    width: 2.25rem;
+}
+.dashboard .Polaris_card .Polaris-Card{
+        box-shadow: unset;
+}
+.dashboard .card-class:hover,.dashboard .card-class .Polaris-Card:hover{
+    background-color:aliceblue;
+    border-radius: 10px;
+}
+.Polaris-Icon--colorBase{
+    margin: unset;
+    margin-left: 10px;
+}
+.polaris-icon{
+    display: flex;
+}
+.Polaris-ResourceItem__ListItem::marker{
+    font-size: 0;
+}
+.card-class .Polaris-Heading{
+    color: rgb(0 101 247 / 87%);
+}
+.Polaris-Layout__Section.Polaris-Layout__Section--oneThird{
+    cursor: pointer;
+}

@@ -1,0 +1,98 @@
+.modalContent{
+    width:300px;
+    margin:auto;
+    position:relative;
+    }
+    
+    .modal{
+        width:100%;
+        height:100%;
+        position:fixed;
+        overflow-y: auto;
+        top:0;
+        left:0;
+        background-color: rgba(0,0,0,0.5);
+        z-index:100;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    
+     .closeIcon{
+        position:absolute;
+        background:none;
+        border:0;
+        right:13px;
+        top:13px;
+        z-index:101;
+        cursor:pointer;
+    }
+    
+    .checkbox{
+        color:#5C5F62;
+        font-size: 15px;
+    }
+    
+     .packDetailsHeading{
+        color:#474747;
+        font-weight: 700;
+     }
+
+    .dropzoneLabel{
+        color:#202223;
+        font-size: 15px;
+    }
+    
+    .fileContainter{
+        width:100%;
+        height:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        gap:10px;
+    }
+    
+    .fileContainter .fileChangeTitle {
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+        margin-bottom:3px;
+        text-decoration-line: underline;
+    }
+    
+    .imageClearContainer{
+        cursor: pointer;
+    }
+
+    .imageClear {
+    font-size: 15px;
+    color:#D80000;
+    text-decoration: underline;
+    text-decoration-color: red;
+    }
+
+
+    .imageClearContainer:hover .imageClear{
+        text-decoration: none;   
+    }
+
+    .title-input, .price{
+      width: 100%;
+      padding: 10px;
+      border: 1px solid gray;
+      background-color: white;
+      border-radius: 5px;
+    }
+
+.text-area-field{
+  width: 100%;
+  max-width: 100%;
+  height: 80px;
+  padding: 10px;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 5px;
+}
